@@ -76,8 +76,8 @@ model = Model(1, 1)
 initial_weight = model.linear.weight.item()
 initial_bias = model.linear.bias.item()
 
-print("\nName: CHANDRU M")
-print("Register No: 212222230026")
+print("\nName: LOGESH.N.A")
+print("Register No: 212223240078")
 print(f'Initial Weight: {initial_weight:.8f}, Initial Bias: {initial_bias:.8f}\n')
 
 loss_function = nn.MSELoss()
@@ -106,8 +106,8 @@ plt.show()
 final_weight = model.linear.weight.item()
 final_bias = model.linear.bias.item()
 
-print("\nName: haritha shree")
-print("Register No: 212222230046")
+print("\nName: LOGESH.N.A")
+print("Register No: 212223240078")
 print(f'\nFinal Weight: {final_weight:.8f}, Final Bias: {final_bias:.8f}')
 
 x1 = torch.tensor([X.min().item(), X.max().item()])
@@ -124,8 +124,8 @@ plt.show()
 x_new = torch.tensor([[120.0]])
 y_new_pred = model(x_new).item()
 
-print("\nName: haritha shree")
-print("Register No: 212222230046")
+print("\nName: LOGESH.N.A")
+print("Register No: 212223240078")
 print(f"\nPrediction for x = 120: {y_new_pred:.8f}")
 
 # Save the trained model
